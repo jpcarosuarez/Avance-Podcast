@@ -1,0 +1,105 @@
+
+#logo {
+    align-content: inherit;
+}
+
+
+#header1 {
+    margin: 200;
+    padding: 1rem;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    background: alpha;
+    overflow: hidden;
+    display: inline;
+    float: right;
+
+}
+
+li { 
+    display: inline;
+    float: right;
+
+}
+
+li:last-child {
+    border-bottom: none;
+  
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    color: #1cda1c;
+}
+
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    font-family: Helvetica, Arial, sans-serif;
+
+}
+
+
+footer {
+    
+    margin-top: 10px;
+    text-align: center;
+    padding: 50px;
+
+}
+
+table {
+    border: 2px solid white;
+    min-width: 100%;
+    margin-top: 10px;
+}
+
+tr td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(44, 43, 43, 0.493);
+} 
+
+
+h1 {
+    font-size: 100px;
+    color: white;
+    text-shadow: -5px 5px 0 #1cda1c, 0 1px #1cda1c, 1px 0 #1cda1c, 0 -1px #1cda1c;
+
+}
+h2 {
+    font-size: 80px;
+    color: white;
+    text-shadow: -5px 5px 0 #1cda1c, 0 1px #1cda1c, 1px 0 #1cda1c, 0 -1px #1cda1c;
+
+}
+
+a { 
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+a:active {color:white; text-decoration: none; }
+
+a:link {color:white; text-decoration: none; }
+
+a:visited {color:white; text-decoration: none; }
+
+
